@@ -46,6 +46,7 @@ body {
     color: rgb(15, 14, 14);
     background-image: url("bride\ H.jpeg");
     background-position:center;
+    background-repeat: no-repeat;
   
   
   }
@@ -64,9 +65,7 @@ body {
    text-align:center;
    }
 
-  .service li{
-
-  }
+  
 
   footer {
     background-color: #4f0707;
@@ -88,22 +87,106 @@ body {
        width:100;
        max-width: 300px;
        height: 200px;
-       border-radius:30px;
+       border-radius:80px;
        object-fit: cover;
        display:inline-table;
        justify-content:left;
        flex-wrap:wrap-reverse;
-       padding: 1rem
-       
-
+       padding: 1rem 
     }
-    
+table {
+  width: 80%;
+  border-collapse:collapse;
+  margin: 20px 0;
+  font-family: 'Lato', sans-serif;
+  background-color:pink;
+  box-shadow:black;
+}
+th {
+  background-color:rgb(238, 206, 21);
+  padding: 5px;
 
 
-    }
-    
+}
+tr:hover{
+background-color: rgb(174, 215, 27);
+  
+}
+.two {
+  background-color: bisque;
+  padding: 20px;
 
-    
+}
+.stories img {
+ border-style:groove;
+ border-radius:100px;
+ margin-bottom: 2px;
+ margin-top: 2px;
+ width: 40%;
+ height: 300px;
+ object-fit: cover;
+ display:flex;
+ justify-content:center;
+ flex-wrap:wrap-reverse;
+ padding: 1rem 
+}
+
+.stories {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+}
+
+.stories p{
+  font-size: 1rem;
+  margin: auto;
+  flex:1;
+  background-color:aliceblue;
+  text-align:center;
+  padding: 10px;
+
+  
+
+}
+.stories h2 {
+  text-align:right;
+  font-size:medium;
+  margin: 0;
+  color: #333;
+  font-style:italic ;
+}
+
+.clientfeedback {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  
+}
+  .founder img {
+    width:100;
+       max-width: 300px;
+       height: 200px;
+       border-radius:80px;
+       object-fit: cover;
+       display:block;
+       margin: 20px;
+  }  
+  h1 {
+    background-color:goldenrod;
+    text-align: center;
+  }
     
 
     
