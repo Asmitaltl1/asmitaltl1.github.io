@@ -2,13 +2,14 @@
 
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'lato', sans-serif;
     margin: 0;
     padding: 0;
-  }
+}
+    
   
   header {
-    background-color: #333;
+    background-color: #972121;
     color: rgba(255, 255, 255, 0.084);
     padding: 10px 0;
     align-items:center
@@ -42,13 +43,35 @@ body {
   .section {
     padding: 40px;
     text-align: left;
-    color: black;
-  }
+    color: rgb(15, 14, 14);
+    background-image: url("bride\ H.jpeg");
+    background-position:center;
   
-  footer {
-    background-color: #333;
-    color: white;
+  
+  }
+   .section h1{
+    font-size: x-large;
     text-align: left;
+    color: rgb(230, 221, 219);
+    
+    
+   }
+   .section p {
+    color: aliceblue;
+   }
+
+   .service h2 {
+   text-align:center;
+   }
+
+  .service li{
+
+  }
+
+  footer {
+    background-color: #4f0707;
+    color: white;
+    text-align: center;
     padding: 20px 0;
   }
   
@@ -61,4 +84,29 @@ body {
   footer a:hover {
     text-decoration: underline;
   }
+    .photoservice img{
+       width:100;
+       max-width: 300px;
+       height: 200px;
+       border-radius:30px;
+       object-fit: cover;
+       display:inline-table;
+       justify-content:left;
+       flex-wrap:wrap-reverse;
+       padding: 1rem
+       
+
+    }
+    
+
+
+    }
+    
+
+    
+    
+
+    
+    
+
   
