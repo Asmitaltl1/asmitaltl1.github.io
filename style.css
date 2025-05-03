@@ -41,33 +41,75 @@ body {
   }
   
   .section {
-    padding: 40px;
+    padding: 30px;
     text-align: left;
     color: rgb(15, 14, 14);
-    background-image: url("bride\ H.jpeg");
-    background-position:center;
+    background-image: none;
     background-repeat: no-repeat;
+    background-size:cover;
+    
   
   
   }
    .section h1{
     font-size: x-large;
-    text-align: left;
+    text-align: center;
     color: rgb(230, 221, 219);
+    margin-top: 2px;
     
     
+   }
+   .section h2{
+    font-style: italic;
+    color: #972121;
+    text-decoration:dashed;
+    text-align: center;
    }
    .section p {
-    color: aliceblue;
-   }
-
-   .service h2 {
-   text-align:center;
-   }
-
+    color: black;
+  margin-bottom: 200px;
+  text-align: center;
+  background-color: pink;
   
+   }
+  
+   
+   .service h2 {
+   text-align:left;
+   color: aliceblue;
+   background-color:goldenrod;
+   }
+   .section li {
+  color:black;
+   }
+  .section ul :hover {
+    text-decoration:underline;
+    color:yellowgreen;
 
-  footer {
+   }
+   .section iframe {
+    width: 100;
+    margin-bottom: 15px;
+    height: 400px;
+   }
+   .photoservice img{
+    width:100px;
+    height:auto;
+    object-fit: cover;
+    border-style: groove;
+    border-radius: 25px;
+    border-color: #d5b8b8;
+    
+ }
+ .photoservice {
+  display: flex;
+  justify-content: center;
+  flex-wrap:wrap;
+  gap: 25px;
+
+ }
+
+footer {
     background-color: #4f0707;
     color: white;
     text-align: center;
@@ -83,17 +125,8 @@ body {
   footer a:hover {
     text-decoration: underline;
   }
-    .photoservice img{
-       width:100;
-       max-width: 300px;
-       height: 200px;
-       border-radius:80px;
-       object-fit: cover;
-       display:inline-table;
-       justify-content:left;
-       flex-wrap:wrap-reverse;
-       padding: 1rem 
-    }
+   
+    <!--gallery page>
 table {
   width: 80%;
   border-collapse:collapse;
@@ -102,78 +135,73 @@ table {
   background-color:pink;
   box-shadow:black;
 }
-th {
+th  {
   background-color:rgb(238, 206, 21);
   padding: 5px;
-
-
 }
 tr:hover{
 background-color: rgb(174, 215, 27);
   
 }
 .two {
-  background-color: bisque;
+  background-color: rgb(231, 197, 156);
   padding: 20px;
+  text-align: center;
 
+}
+.two h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+} 
+
+.two p {
+  font-size:medium;
+  margin-bottom: 2px;
+}
+.clientfeedback {
+  display:flex;
+  flex-direction:row;
+  gap: 2rem;
+  padding: 1rem;
+  flex-wrap: wrap;
+  justify-content:center;
+  
 }
 .stories img {
  border-style:groove;
- border-radius:100px;
- margin-bottom: 2px;
+ border-radius:250px;
+ margin-bottom: 10px;
  margin-top: 2px;
- width: 40%;
- height: 300px;
+ width: 100%;
+ height: auto;
  object-fit: cover;
- display:flex;
- justify-content:center;
- flex-wrap:wrap-reverse;
- padding: 1rem 
+ 
 }
 
 .stories {
   display:flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+  flex-direction:column;
+  align-items:center;
+  text-align:center;
+  width: 30%;
 
 }
 
 .stories p{
   font-size: 1rem;
   margin: auto;
-  flex:1;
   background-color:aliceblue;
-  text-align:center;
   padding: 10px;
-
-  
-
 }
+
 .stories h2 {
-  text-align:right;
   font-size:medium;
   margin: 0;
   color: #333;
   font-style:italic ;
+  
 }
 
-.clientfeedback {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-  padding: 1rem;
-  flex-wrap: wrap;
-  justify-content: center;
-  
-}
-.text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  
-}
   .founder img {
     width:100;
        max-width: 300px;
