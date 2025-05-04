@@ -61,8 +61,8 @@ body {
    .section h2{
     font-style: italic;
     color: #972121;
-    text-align: center;
-    
+    text-align:center;
+    width:55%;
     
    }
    .section p {
@@ -133,22 +133,25 @@ footer {
     text-decoration: underline;
   }
    
-    <!--gallery page>
+    /*gallery page*/
 table {
   width: 80%;
   border-collapse:collapse;
   margin: 20px 0;
   font-family: 'Lato', sans-serif;
 box-shadow:black;
+
 }
 th  {
   background-color:rgb(238, 206, 21);
   padding: 5px;
 }
+
 tr:hover{
-background-color: rgb(174, 215, 27);
+background-color: rgb(186, 224, 50);
   
 }
+/*class as two main section changes*/
 .two {
   background-color: rgb(231, 197, 156);
   padding: 20px;
@@ -164,7 +167,9 @@ background-color: rgb(174, 215, 27);
 .two p {
   font-size:medium;
   margin-bottom: 2px;
+  
 }
+/*changes in all client feedback effects*/
 .clientfeedback {
   display:flex;
   flex-direction:row;
@@ -176,11 +181,9 @@ background-color: rgb(174, 215, 27);
 }
 .stories img {
  border-style:groove;
- border-radius:250px;
- margin-bottom: 10px;
- margin-top: 2px;
- width: 80%;
- height: auto;
+ border-radius:1px;
+ width: 100%;
+ 
 }
 
 .stories {
@@ -198,6 +201,9 @@ background-color: rgb(174, 215, 27);
   margin: auto;
   background-color:aliceblue;
   padding: 10px;
+  height: 40%;
+  font-style: italic;
+  color: #972121;
   
 }
 
@@ -208,26 +214,67 @@ background-color: rgb(174, 215, 27);
   font-style:italic;
   
 }
+/*our exper*/
+.expert{
+display: flex;
+flex-direction: row;
+
+}
 
   .founder img {
-    width:100;
-       max-width: 300px;
-       height: 200px;    
-       display:flex;
-       margin: 20px;
-       
-  } 
-  .founder {
-    display:flex;
-   flex-direction: column;
-   
+    width:200px;
+    border-style:groove;
+    
+ } 
+   .founder p {
+    background-color: rgb(201, 81, 81);
+    width:200px;
+    height:50px;
+    padding: 10px;
+    margin-top: auto;
+    }
   
-
-  } 
   h1 {
     background-color:goldenrod;
     text-align: center;
   }
+  /*contact me */
+  /*main section class as three*/
+  .three {
+    background-image: url(pexels-pixabay-267360.jpg);
+    background-position: center;
+    background-size: contain;
+  
+  }
+  .contactus{
+    background-color:url(pexels-pixabay-267360.jpg);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .contactus img {
+    display: flex;
+    width:50%;
+    height: fit-content;
+  }
+  .details {
+    background-color: #d5b8b8;
+    font-size: larger;
+    display: flex;
+    justify-content:end;
+    
+   }
+  .details:hover{
+    color: rgb(36, 195, 41);
+    text-decoration:dashed;
+  }
+  .booknow {
+    background-color: goldenrod;
+    height:100px;
+    width: 500px;
+  }
+
     
 
     
