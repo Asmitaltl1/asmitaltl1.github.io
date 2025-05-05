@@ -1,17 +1,17 @@
 /* styles.css */
 
 
-body {
+html,body {
     font-family: 'lato', sans-serif;
     margin: 0;
     padding: 0;
+    height: 100%;
 }
     
   
   header {
     background-color: #972121;
-    color: rgba(255, 255, 255, 0.084);
-    padding: 10px 0;
+     padding: 10px 0;
     align-items:center;
   }
   
@@ -24,7 +24,8 @@ body {
   
   .navbar li {
     display: inline-flex;
-    margin: 0 20px;
+    margin:20px;
+
   }
   
   .navbar a {
@@ -38,7 +39,7 @@ body {
     text-decoration: underline;
     color: yellowgreen;
   }
-   
+   /*section home*/
   .section {
     padding: 30px;
     text-align:left;
@@ -70,6 +71,7 @@ body {
     background-color:rgb(227, 130, 162);
   text-align:center;
   margin-bottom: 50px;
+  padding:20px;
 
  }
   
@@ -95,9 +97,15 @@ body {
     width: 100;
     margin-bottom: 15px;
     margin-top: 15px;
-    height: 400px;
+    height:200px
 
    }
+   .service h2 {
+    text-align:center;
+    color: aliceblue;
+    background-color:goldenrod;
+    font-style: normal;
+    }
 
    .photoservice img{
     width:100px;
@@ -115,12 +123,14 @@ body {
   gap: 25px;
 
  }
-
+/* footer*/
 footer {
     background-color: #4f0707;
     color: white;
     text-align: center;
-    padding: 20px 0;
+    padding: 20px;
+    margin: 0;
+    
   }
   
   footer a {
@@ -129,17 +139,16 @@ footer {
     font-size: 16px;
   }
   
-  footer a:hover {
-    text-decoration: underline;
-  }
+  
    
     /*gallery page*/
 table {
   width: 80%;
   border-collapse:collapse;
   margin: 20px 0;
-  font-family: 'Lato', sans-serif;
-box-shadow:black;
+ box-shadow:black;
+ 
+
 
 }
 th  {
@@ -214,10 +223,25 @@ background-color: rgb(186, 224, 50);
   font-style:italic;
   
 }
-/*our exper*/
+/*our expert*/
 .expert{
-display: flex;
-flex-direction: row;
+  display:flex;
+  flex-direction:column;
+  gap: 2rem;
+  padding: 1rem;
+  flex-wrap: wrap;
+  justify-content:center;
+  
+
+}
+.founder{
+  display:flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  align-items:center;
+  text-align:center;
+  width: 100%;
+  justify-content: space-between;
 
 }
 
@@ -230,9 +254,10 @@ flex-direction: row;
     background-color: rgb(201, 81, 81);
     width:200px;
     height:50px;
-    padding: 10px;
-    margin-top: auto;
+    padding: 40px;
+    
     }
+    
   
   h1 {
     background-color:goldenrod;
@@ -244,6 +269,7 @@ flex-direction: row;
     background-image: url(pexels-pixabay-267360.jpg);
     background-position: center;
     background-size: contain;
+    
   
   }
   .contactus{
@@ -252,6 +278,7 @@ flex-direction: row;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    
   }
   .contactus img {
     display: flex;
@@ -262,20 +289,40 @@ flex-direction: row;
     background-color: #d5b8b8;
     font-size: larger;
     display: flex;
-    justify-content:end;
+    justify-content:center;
+    width:fit-content;
     
    }
-  .details:hover{
-    color: rgb(36, 195, 41);
-    text-decoration:dashed;
-  }
+ 
+  
   .booknow {
     background-color: goldenrod;
-    height:100px;
-    width: 500px;
+    height:50px;
+    width:fit-content;
+    font-size:smaller
+  
+  }
+  /* Responsive for small screens */
+@media screen and (max-width: 768px) {
+  
+  .navbar {
+      flex-direction: column;
+      align-items: flex-start;
   }
 
-    
+  .navbar li {
+      margin: 10px 0;
+  }
+   .section iframe {
+    width: 100%;
+    height: 200px; 
+  }
+
+  .stories p, .stories h2{
+    font-size: 0.8rem;
+   height: auto;
+  }
+}
 
     
     
